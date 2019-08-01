@@ -1,0 +1,257 @@
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #130328;
+    font-size: 16px;
+    color: #777;
+    font-family: ;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+
+}
+.login-box{
+    position: relative;
+    margin: 15% auto;
+    height: 350px;
+    width: 700px;
+    background: #fff;
+  
+}
+
+.left-side .overlay{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.70);
+    padding: 16px;
+    margin: -16px;
+    height: 320px;
+
+
+}
+
+
+.left-side{
+    background-image: url(background.jpg);
+    background-position: center-top;
+    background-blend-mode: screen;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left:0;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 38%;
+    height: 350px;
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;   
+}
+
+.left-side h1{
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+}
+.left-side p{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom:28px;
+    padding-left: 10px;
+
+
+}
+
+.left-side  .facebook{
+    background-color: #3A5999;
+    padding: 8px;
+    width: 170px;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    font-weight: 400;
+
+}
+
+.fa-facebook-f:before{
+    background-color: #365087;
+    margin: 0px;
+    padding-top: 6px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+    padding-right: 19px;
+    font-size: inherit;
+
+}
+.left-side  .twitter{
+    background-color: #45B0E4;
+    padding: 8px;
+    width: 170px;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    font-weight: 400;
+    
+ }
+ .fa-twitter:before  {
+    background-color: #40A2D1;
+    margin: 0px;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: medium;
+
+    }
+.left-side  .google{
+        background-color: #E04B37;
+        padding: 8px;
+        width: 170px;
+        color: #fff;
+        text-align: center;
+        font-size: 15px;
+        cursor: pointer;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: none;
+        font-weight: 400;
+        
+        }
+      .fa-google-plus-g:before{
+            background-color: #D03D23;
+            margin: 0px;
+            padding-top: 8px;
+            padding-bottom: 9px;
+            padding-left: 10px;
+            padding-right: 15px;
+            font-size: medium;
+
+
+        }
+
+.left-side button{
+    margin-bottom: 20px;
+    width:220px;
+    height: 36px;
+    border: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.right-side{
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 62%;
+    height: 350px;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.right-side h2{
+    margin: 0 0 28px 0;
+    font-weight: 500;
+    font-size: 29px; 
+    color: black;
+}
+
+.right-side form div{
+    position: relative;
+}
+.right-side form div label{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    pointer-events: none;
+    transition: .5s;
+    font-size: 12px;
+}
+.right-side input:focus~label
+{
+
+left:0;
+color: transparent;
+font-size: 8px;
+}
+/* .right-side input:valid~label
+{
+
+left:0;
+color: black;
+font-size: 8px;
+} */
+.right-side input:active~label{
+    left: 10px;
+    text-transform: none;
+
+}
+
+
+input[type="text"],
+input[type="password"]
+{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 2px;
+    box-shadow: none;
+    outline: none;
+    padding: 5px;
+    width:100%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 40px;
+    transition: 0.2s ease;
+
+}
+
+.inputWithIcons{
+    position: relative;
+}
+.inputWithIcons i {
+    position: absolute;
+    left: 0;
+    top:-2px;
+    padding: 9px 2px;
+    color: #001;
+    transition: 0.3s;
+}
+.right-side button{
+    margin-bottom: 28px;
+    width:100%;
+    height: 38px;
+    border: none;
+    border-radius: 6px;
+    background-color: #130328;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    transition: 0.2s ease;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+
+    
+}
